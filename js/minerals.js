@@ -1,22 +1,25 @@
-function preload(){
-  t = loadImage("images/pour-grey.gif");
+var c = ['#E40303', '#FF8C00', '#FFED00', '#008026', '#004DFF', '#750787'];
+
+setInterval(function(){
+    animateColor();
+    console.log("yes");
+},1000);
+
+function animateColor(){
+    $('body').animate({
+    	backgroundColor: pickColor()
+    },1000);
 }
 
-function setup() {
-  createCanvas(windowWidth, windowHeight, WEBGL);
+function pickColor(){
+    var rand = Math.floor(Math.random() * 11);
+    if (rand == curcolor){
+        pickColor();
+    }
+    else { 
+        curcolor = rand;
+        return colors[rand];
+    }
 }
 
-function draw(){
-  background("#cecece");
-
-  translate(0,-100,0);
-  texture(t);
-  for (var i = 0; i < 15; i++){
-    noStroke();
-    translate(i,i,12);
-    rotateY(frameCount*0.005);
-    rotateX(frameCount*0.01);
-    cylinder(8+i, 200);
-  }
-
-}
+console.log("yes");

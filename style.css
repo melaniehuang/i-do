@@ -5,12 +5,54 @@
 
 body {
   background-color: #000;
-  font-family: Titillium Web, sans-serif;
+  font-family: Poppins, sans-serif;
   text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  color: #fff;
+  line-height: 46px;
+
+  animation: colorchange 60s;
+  animation-iteration-count: infinite;
+  animation-direction: forward;
+  -webkit-animation: colorchange 60s; /* Chrome and Safari */
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: forward;
 }
 
-#mineralsCanvas {
-  z-index:1;
-  position: absolute;
+h1 {
+  font-size: 120px;
+  line-height: 140px;
+}
+
+#tagline{
+  margin-top:120px;
+  margin-bottom: 40px;
+}
+
+img {
+	width:26%;
+	margin-bottom: 40px;
+}
+
+@keyframes colorchange {
+  0%   {background: #E40303;}
+  16%   {background: #FF8C00;}
+  32%   {background: #FFED00;}
+  48%  {background: #008026;}
+  64%  {background: #004DFF;}
+  80% {background: #750787;}
+  100% {background: #E40303;}
+}
+
+@-webkit-keyframes colorchange {
+  0%   {background: #E40303;}
+  16%   {background: #FF8C00;}
+  32%   {background: #FFED00;}
+  48%  {background: #008026;}
+  64%  {background: #004DFF;}
+  80% {background: #750787;}
+  100% {background: #E40303;}
 }
 
