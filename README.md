@@ -1,8 +1,5 @@
-# minerals
-Playing around with p5.js and WEBGL
+# VOTE YES
+Making a projection for our front window for upcoming postal vote on marriage equality.
 
-[Octopus minerals](http://melaniehuang.com/projects/supporting/minerals)
-
-![No Material](https://i.imgur.com/XzGBLjj.gif)
-![Material](https://i.imgur.com/mMYGsye.gif)
+![LOVE IS LOVE](http://i.imgur.com/XTUS9ta.jpg)
 
