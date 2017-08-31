@@ -26,9 +26,14 @@ h1 {
   line-height: 140px;
 }
 
-#tagline{
-  margin-top:120px;
+#tagline {
+  margin-top:160px;
   margin-bottom: 40px;
+}
+
+#subline {
+  padding-right: 14%;
+  padding-left: 14%;
 }
 
 img {
@@ -55,4 +60,3 @@ img {
   80% {background: #750787;}
   100% {background: #E40303;}
 }
-
