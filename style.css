@@ -13,10 +13,10 @@ body {
   color: #fff;
   line-height: 46px;
 
-  animation: colorchange 60s;
+  animation: colorchange 40s;
   animation-iteration-count: infinite;
   animation-direction: forward;
-  -webkit-animation: colorchange 60s; /* Chrome and Safari */
+  -webkit-animation: colorchange 40s; /* Chrome and Safari */
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-direction: forward;
 }

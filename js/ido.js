@@ -11,7 +11,7 @@ var count = 0;
 
 setInterval(function(){
 	changeWords();
-}, 2000);
+}, 1500);
 
 function changeWords(){
   document.getElementById("firstWord").innerHTML = words[count][0];
